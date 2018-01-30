@@ -1,4 +1,4 @@
-# Element.offsetHeight
+## Element.offsetHeight
 offsetHeight = height + padding + border + horizontal scrollbar (if 
 present)
 
@@ -7,12 +7,12 @@ present)
 
 * round the value to integer.
 
-# Element.clientHeight
+## Element.clientHeight
 clientHeight = height + padding - height of horizontal scrollbar (if present)
 
 * round the value to integer.
 
-# Element.scrollHeight
+## Element.scrollHeight
 scrollHeight = height + padding - height of horizontal scrollbar (if
 present)
 
