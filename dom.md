@@ -1,9 +1,7 @@
 
 ## Element.getBoundingClientRect()
 返回一个DOMRect对象，此对像包含top、bottom、left、right、width、height等属性，其中top、bottom、left、right的值是指目标元素的上边框距离浏览器viewport上边框的距离、元素下边框距离浏览器viewport上边框的距离、元素左边框距离浏览器viewport左边框的距离、元素右边框距离浏览器viewport左边框的距离。即此四个属性只是分别相对于浏览器viewport的左边框和上边框，而不是四个边框。
-<p align="center">
-  <img align="left" width="100" height="100" src="./images/getBoundingClientRect.png" width="50%">
-</p>
+
 ## Element.offsetHeight
 offsetHeight = height + padding + border + horizontal scrollbar (if 
 present)
